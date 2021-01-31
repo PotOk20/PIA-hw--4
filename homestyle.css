@@ -1,0 +1,66 @@
+.nav_bar{
+    width: 100%;
+    background-color: #2d2d2d;
+    height: 50px;
+    position: fixed;
+  }
+  .logo {
+    border-radius: 5px;
+    height: 40px;
+    padding-top: 5px;
+    padding-left: 15%;
+    margin: auto;
+    position: absolute;
+  }
+  .nav_bar .genres{
+    position: absolute;
+    display: inline-block;
+    left: 30%;
+    margin: auto;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url("ahah.PNG");
+  }
+  .genres {
+    margin: auto;
+    padding-top: 17px ;
+  }
+  .genres .Gname {
+    color: white;
+  }
+  .genres_list{
+    padding: 2px;
+    background-color: lightgray;
+    font-size: 22;
+  }
+  .search_box {
+    top: 0;
+    left: 320px;
+    position: absolute;
+    display: inline-block;
+  }
+  .search_box input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  .btn1{
+    position: absolute;
+    left: 550px;
+    top:5px;
+    float: right;
+    width: 20%;
+    padding: 10px;
+    background: #2d2d2d;
+    color: white;
+    font-size: 15px;
+    border-left: none;
+    cursor: pointer;
+  
+  }
+  
